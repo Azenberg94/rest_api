@@ -15,7 +15,7 @@ import static org.springframework.boot.test.context.SpringBootTest.WebEnvironmen
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-public class ConfigPropertiesIT extends AbstractControllerTest{
+public class ConfigPropertiesITTests extends AbstractControllerTests {
 
     @Test
     public void should_get_all_properties(){

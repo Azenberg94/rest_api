@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(classes = AccountRepositoryJdbc.class)
 @DataJpaTest
 @AccountData
-public class AccountRepositoryJdbcIT {
+public class AccountRepositoryJdbcITTests {
     @Autowired
     AccountRepositoryJdbc accountRepositoryJdbc;
 
